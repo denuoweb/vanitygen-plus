@@ -2,7 +2,7 @@
 Vanitygen PLUS for Htmlcoin!  
 -----
 
-**Download the latest binary from Releases**  
+**Download the latest linux binary from Releases**  
 
 **WARNING!** This program has not been thoroughly tested.  Please attempt importing an address first.  
 Send a tiny amount you don't mind losing to the address.  Then perform a test spend.  
@@ -15,16 +15,10 @@ Getting Started
 
 1 - Extract the files,  
 2 - Open a terminal/command prompt,  
-3 - Change to the directory containing vanitygen-plus binaries.  
-4 - Linux run commands: 
-	apt-get install opencl-headers
-	cd ~
-	git clone https://github.com/denuoweb/vanitygen-plus.git
-	cd vanitygen
-	make all
+3 - Change to the directory to vanitygen-plus 
 
 Running On Linux: `./vanitygen -ARGS`, or `./oclvanitygen -ARGS`, `./keyconv -ARGS`, etc  
-Running On Windows: `vanitygen.exe -ARGS`, `oclvanitygen.exe -ARGS`, `keyconv.exe -ARGS`, etc  
+Running On Windows is not ready yet: `vanitygen.exe -ARGS`, `oclvanitygen.exe -ARGS`, `keyconv.exe -ARGS`, etc  
 
  
 
