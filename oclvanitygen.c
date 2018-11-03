@@ -236,6 +236,7 @@ main(int argc, char **argv)
 					"HAM : HamRadiocoin : 1\n"
 					"HBN : HoboNickels(BottleCaps) : E or F\n"
 					"HODL : HOdlcoin : H\n"
+                                        "HTML : Htmlcoin : H\n"
 					"IC : Ignition Coin : i\n"
 					"IXC : Ixcoin : x\n"
 					"JBS : Jumbucks : J\n"
@@ -1145,6 +1146,14 @@ main(int argc, char **argv)
 					privtype = 128;
 					break;
 			}
+				                        else
+                        if (strcmp(optarg, "HTML")== 0) {
+                                fprintf(stderr,
+                                        "Generating HTMLCOIN Address\n");
+                                        addrtype = 41;
+                                        privtype = 169;
+                                        break;
+                        }
 			else
 			if (strcmp(optarg, "ATMOS")== 0) {
 				fprintf(stderr,
