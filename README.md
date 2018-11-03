@@ -11,34 +11,30 @@ I will not be held liable for lost funds as a result of the use of this program.
 ----
 Getting Started  
 -----  
-**Download the latest binary!**  
-Linux Binary (Compiled on 64bit Debian Testing)  
-Windows Binary (Compiled on Win10 64bit)  
+**Download the latest binary!** 
 
-Extract the files,  
-open a terminal/command prompt,  
-change to directory containing vanitygen-plus binaries.  
+1 - Extract the files,  
+2 - Open a terminal/command prompt,  
+3 - Change to the directory containing vanitygen-plus binaries.  
+4 - Linux run commands: 
+	apt-get install opencl-headers
+	cd ~
+	git clone https://github.com/denuoweb/vanitygen-plus.git
+	cd vanitygen
+	make all
 
 Running On Linux: `./vanitygen -ARGS`, or `./oclvanitygen -ARGS`, `./keyconv -ARGS`, etc  
 Running On Windows: `vanitygen.exe -ARGS`, `oclvanitygen.exe -ARGS`, `keyconv.exe -ARGS`, etc  
+
+ 
 
 **For generating addresses using the CPU(slower) use: vanitygen !**  
 **For generating addresses using the GPU(faster) use: oclvanitygen !**  
 
 **NOTES:**	All arguments are case sensitive!  
 	Address prefix must be at the end of the command.  
-	oclvanitygen requires OpenCL and correct drivers.  
+	oclvanitygen requires OpenCL and correct drivers.   
 
-**Get a list of the supported Coins with:**  
-Linux CPU: `./vanitygen -C LIST`  
-Linux GPU: `./oclvanitygen -C LIST`  
-Windows CPU: `vanitygen.exe -C LIST`  
-Windows GPU: `oclvanitygen.exe -C LIST`  
-
-A list of all the supported crypto coins will be output.  
-
-Choose your coin from the list noting the ARGUMENT needed for the coin located in the left hand column.  
-For Htmlcoin it is HTML.  Etc...  
 
 **Now lets generate a HTML address with the prefix "Htest":**  
 Linux CPU: `./vanitygen -C HTML -o results.txt -i -k Htest`  
