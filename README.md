@@ -1,10 +1,10 @@
 -----
-Vanitygen PLUS!  
+Vanitygen PLUS for Htmlcoin!  
 -----
 
-**Download the latest binary from: https://github.com/exploitagency/vanitygen-plus/releases !**  
+**Download the latest binary from Releases**  
+**Download the latest binary from Releases**  
 
-Note: For generating a Zcash or Zclassic address please see the Z repo: https://github.com/exploitagency/vanitygen_z
 
 Forked from samr7/vanitygen ,  
 then modified by Corey Harding  
@@ -31,7 +31,7 @@ The chances of actually brute forcing an address is nearly impossible anyways.
 Be sure to report any issues or bugs and fixes, I am happy to accept pull requests!  
 If you have an altcoin you would like to add please let me know.  
 
------
+----
 Getting Started  
 -----  
 **Download the latest binary!**  
