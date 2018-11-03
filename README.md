@@ -55,9 +55,9 @@ Windows GPU: `oclvanitygen.exe -C HTML -o results.txt -i -k Htest`
 Example output of above command:  
 >Generating HTML Address  
 >Difficulty: 4553521  
->LBRY Pattern: Htest                                                                  
->LBRY Address: Htest6jSVcid5MQAJBrGUR6MLDpdyb8oiQ  
->LBRY Privkey: wrRxctq3f7A1zkpyWoZRifRk5eAC2UM9idh83SPLhz6gAFfqdL  
+>HTML Pattern: Htest                                                                  
+>HTML Address: Htest6jSVcid5MQAJBrGUR6MLDpdyb8oiQ  
+>HTML Privkey: wrRxctq3f7A1zkpyWoZRifRk5eAC2UM9idh83SPLhz6gAFfqdL  
 
 **If you have dependency errors on Linux  
 or need instructions for compiling from source(Kaling Rolling/Linux) see link below:**  
