@@ -142,6 +142,7 @@ main(int argc, char **argv)
 					"HAM : HamRadiocoin : 1\n"
 					"HBN : HoboNickels(BottleCaps) : E or F\n"
 					"HODL : HOdlcoin : H\n"
+                                        "HTML : Htmlcoin : H\n"
 					"IC : Ignition Coin : i\n"
 					"IXC : Ixcoin : x\n"
 					"JBS : Jumbucks : J\n"
@@ -177,7 +178,7 @@ main(int argc, char **argv)
 					"PPC : Peercoin : P\n"
 					"PTC : Pesetacoin : K\n"
 					"PTS : Protoshares : P\n"
-					"QTUM : Qtum : Q\n"
+                                        "QTUM : Qtum : Q\n"
 					"RBY : Rubycoin : R\n"
 					"RDD : Reddcoin : R\n"
 					"RIC : Riecoin : R\n"
@@ -1059,6 +1060,14 @@ main(int argc, char **argv)
 					privtype_opt = 128;
 					break;
 			}
+                        else
+                        if (strcmp(optarg, "HTML")== 0) {
+                                fprintf(stderr,
+                                        "Decrypting HTMLCOIN Address\n");
+                                        addrtype_opt = 41;
+                                        privtype_opt = 169;
+                                        break;
+                        }
 			else
 			if (strcmp(optarg, "ATMOS")== 0) {
 				fprintf(stderr,
