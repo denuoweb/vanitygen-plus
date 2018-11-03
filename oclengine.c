@@ -36,7 +36,7 @@
 #define CL_CALLBACK
 #endif
 #else
-#include <OpenCL/cl.h>
+#include <CL/cl.h>
 #endif
 
 #include "oclengine.h"
