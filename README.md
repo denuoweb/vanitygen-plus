@@ -2,7 +2,8 @@
 Vanitygen PLUS for Htmlcoin!  
 -----
 
-**Download the latest linux binary from Releases**  
+**Download the latest linux binary from Releases**
+**Windows binary is not yet available**
 
 **WARNING!** This program has not been thoroughly tested.  Please attempt importing an address first.  
 Send a tiny amount you don't mind losing to the address.  Then perform a test spend.  
