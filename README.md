@@ -34,7 +34,7 @@ If you have an altcoin you would like to add please let me know.
 -----
 Getting Started  
 -----  
-**Download the latest binary from: https://github.com/exploitagency/vanitygen-plus/releases !**  
+**Download the latest binary!**  
 Linux Binary (Compiled on 64bit Debian Testing)  
 Windows Binary (Compiled on Win10 64bit)  
 
@@ -188,6 +188,7 @@ Current List of Available Coins for Address Generation
 |HAM | HamRadiocoin | 1  |
 |HBN | HoboNickels(and BottleCaps) | E or F  |
 |HODL | HOdlcoin | H  |
+|HTML | Htmlcoin | H  |
 |IC | Ignition Coin | i  |
 |IXC | Ixcoin | x  |
 |JBS | Jumbucks | J  |
