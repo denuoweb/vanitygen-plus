@@ -2,8 +2,8 @@
 Vanitygen PLUS for Htmlcoin!  
 -----
 
-**Download the latest linux binary from Releases**
-**Windows binary is not yet available**
+**Linux binary is in Releases**
+**Windows binary is not yet compiled**
 
 **WARNING!** This program has not been thoroughly tested.  Please attempt importing an address first.  
 Send a tiny amount you don't mind losing to the address.  Then perform a test spend.  
@@ -19,7 +19,7 @@ Getting Started
 3 - Change to the directory to vanitygen-plus 
 
 Running On Linux: `./vanitygen -ARGS`, or `./oclvanitygen -ARGS`, `./keyconv -ARGS`, etc  
-Running On Windows is not ready yet: `vanitygen.exe -ARGS`, `oclvanitygen.exe -ARGS`, `keyconv.exe -ARGS`, etc  
+Running On Windows is not ready yet, you can compile: `vanitygen.exe -ARGS`, `oclvanitygen.exe -ARGS`, `keyconv.exe -ARGS`, etc  
 
  
 
